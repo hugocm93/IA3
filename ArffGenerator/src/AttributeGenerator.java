@@ -114,14 +114,17 @@ public class AttributeGenerator {
 		}
 
 
+		
 		/*Writes the attributes to the ListOfWords.txt file. Those are the most frequent words*/
 		int counter = 0;
 		for (Entry<String, Integer> entry : sortedMap.entrySet()) {
 			String key = entry.getKey();
-
+			
 			if(counter>=tam){
 				writer.println(key);
 			}
+			
+			counter++;
 		}
 
 		/*Finishes writing arff file*/

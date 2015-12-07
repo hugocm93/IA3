@@ -99,9 +99,10 @@ public class ArffGenerator {
 									words[i] = words[i].toLowerCase();
 
 									for(int a=0 ; a < atSize; a++){
-										if(attributes[a].equals(words[i]) && atValues[a]==0){
+										if(attributes[a].equals(words[i])){
 											//it could be another value instead of 1
-											atValues[a] = 1;
+											//atValues[a] = 1;
+											atValues[a] = atValues[a]+1;
 										}
 									}
 								}
