@@ -1,0 +1,90 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -seed 1
+Relation:     MovieDataSet-weka.filters.unsupervised.attribute.Remove-V-R1-2,14,19,21,28,60-61,87-88,93,109,111,120,154,160,164,172-173,190,195,201,208,215,228,236,244,252,258,268,283,292,300,302,324,356,374-375,378,391,418,440,451,467,487,490-491,521,525,531,600
+Instances:    50000
+Attributes:   51
+              crap
+              attempt
+              looked
+              hilarious
+              ok
+              strong
+              highly
+              decent
+              brilliant
+              favorite
+              enjoyed
+              amazing
+              horrible
+              unfortunately
+              waste
+              oh
+              supposed
+              worse
+              loved
+              couldnt
+              definitely
+              perfect
+              wonderful
+              terrible
+              awful
+              stupid
+              classic
+              boring
+              1
+              poor
+              excellent
+              beautiful
+              instead
+              half
+              different
+              worst
+              minutes
+              script
+              least
+              always
+              world
+              nothing
+              years
+              why
+              best
+              plot
+              love
+              great
+              bad
+              well
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 184.96 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       40055               80.11   %
+Incorrectly Classified Instances      9945               19.89   %
+Kappa statistic                          0.6022
+Mean absolute error                      0.1989
+Root mean squared error                  0.446 
+Relative absolute error                 39.78   %
+Root relative squared error             89.1964 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.76      0.158      0.828     0.76      0.793      0.801    0
+                 0.842     0.24       0.778     0.842     0.809      0.801    1
+Weighted Avg.    0.801     0.199      0.803     0.801     0.801      0.801
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 19005  5995 |     a = 0
+  3950 21050 |     b = 1
+
