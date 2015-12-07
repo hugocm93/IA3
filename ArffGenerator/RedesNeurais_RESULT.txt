@@ -1,0 +1,1533 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     MovieDataSet-weka.filters.unsupervised.attribute.Remove-V-R1-2,14,19,21,28,60-61,87-88,93,109,111,120,154,160,164,172-173,190,195,201,208,215,228,236,244,252,258,268,283,292,300,302,324,356,374-375,378,391,418,440,451,467,487,490-491,521,525,531,600
+Instances:    50000
+Attributes:   51
+              crap
+              attempt
+              looked
+              hilarious
+              ok
+              strong
+              highly
+              decent
+              brilliant
+              favorite
+              enjoyed
+              amazing
+              horrible
+              unfortunately
+              waste
+              oh
+              supposed
+              worse
+              loved
+              couldnt
+              definitely
+              perfect
+              wonderful
+              terrible
+              awful
+              stupid
+              classic
+              boring
+              1
+              poor
+              excellent
+              beautiful
+              instead
+              half
+              different
+              worst
+              minutes
+              script
+              least
+              always
+              world
+              nothing
+              years
+              why
+              best
+              plot
+              love
+              great
+              bad
+              well
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -2.43401042721842
+    Node 2    0.7548934156400626
+    Node 3    0.9622113712185891
+    Node 4    5.191220660974916
+    Node 5    5.3123589960672986
+    Node 6    3.032111335594462
+    Node 7    0.5931575953464431
+    Node 8    0.9354815605419097
+    Node 9    1.0590202547077026
+    Node 10    -6.251085470873824
+    Node 11    5.747484468494111
+    Node 12    -1.735701125178597
+    Node 13    0.6684850464791554
+    Node 14    2.2294110452487232
+    Node 15    6.353819559442404
+    Node 16    5.717884348098355
+    Node 17    0.7870311726826859
+    Node 18    1.4779858935285917
+    Node 19    -1.0448407787625935
+    Node 20    1.5026736658866244
+    Node 21    0.8178377700250182
+    Node 22    3.078622920034749
+    Node 23    0.8291730956846867
+    Node 24    0.6065615311637516
+    Node 25    1.432564085374538
+    Node 26    4.942538777243467
+    Node 27    -2.792903270320196
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    2.4340104280130825
+    Node 2    -0.7548934150205909
+    Node 3    -0.962211371382053
+    Node 4    -5.1912208075888255
+    Node 5    -5.312358736308886
+    Node 6    -3.0321113389574514
+    Node 7    -0.5931575947394563
+    Node 8    -0.9354815611811409
+    Node 9    -1.059020254708339
+    Node 10    6.2510854525264286
+    Node 11    -5.747484448998726
+    Node 12    1.7357011233224497
+    Node 13    -0.6684850466574406
+    Node 14    -2.229411044290539
+    Node 15    -6.353819547505755
+    Node 16    -5.717884327723364
+    Node 17    -0.7870311725466264
+    Node 18    -1.477985893773834
+    Node 19    1.0448407822505872
+    Node 20    -1.502673665760555
+    Node 21    -0.8178377706985339
+    Node 22    -3.0786229252698667
+    Node 23    -0.8291730961025222
+    Node 24    -0.606561531717886
+    Node 25    -1.432564086617855
+    Node 26    -4.942538785141056
+    Node 27    2.7929032704414998
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    32.41617843910794
+    Attrib crap    11.300657040907476
+    Attrib attempt    16.81877741111796
+    Attrib looked    -5.6080972548500165
+    Attrib hilarious    -1.084948046270749
+    Attrib ok    -2.7487410360234565
+    Attrib strong    -1.4817763354638651
+    Attrib highly    -3.8779428100751177
+    Attrib decent    8.167971886208997
+    Attrib brilliant    -14.755745568294047
+    Attrib favorite    -12.647406663098927
+    Attrib enjoyed    -9.197712922414352
+    Attrib amazing    -26.716253450175543
+    Attrib horrible    2.4377002813049895
+    Attrib unfortunately    12.405233496420445
+    Attrib waste    14.417774998025696
+    Attrib oh    15.217394074484154
+    Attrib supposed    30.01964129567154
+    Attrib worse    4.14245636062743
+    Attrib loved    -20.9320281038521
+    Attrib couldnt    3.486016862863608
+    Attrib definitely    -37.02562875193992
+    Attrib perfect    -12.766650733488879
+    Attrib wonderful    -21.21257408162307
+    Attrib terrible    5.084969726988242
+    Attrib awful    21.680419687175508
+    Attrib stupid    28.19098087613787
+    Attrib classic    -20.58088154932961
+    Attrib boring    14.468830638310903
+    Attrib 1    17.89718280822404
+    Attrib poor    16.31736770740324
+    Attrib excellent    -20.943686961257495
+    Attrib beautiful    -21.072544737096614
+    Attrib instead    9.56206633999644
+    Attrib half    -3.532464826315205
+    Attrib different    -7.415054923580018
+    Attrib worst    32.032995200320585
+    Attrib minutes    12.637887294956796
+    Attrib script    1.1771174155423534
+    Attrib least    28.10665993726999
+    Attrib always    3.502416287203348
+    Attrib world    -33.611700257696604
+    Attrib nothing    34.30748057290591
+    Attrib years    -17.602152323671856
+    Attrib why    11.150722405397135
+    Attrib best    -13.49779594952072
+    Attrib plot    6.4507791212116
+    Attrib love    -19.150490692252145
+    Attrib great    -29.676654172892793
+    Attrib bad    41.68853017076051
+    Attrib well    -13.713522829757089
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    15.296078879959854
+    Attrib crap    9.234567768114728
+    Attrib attempt    0.22994245806730146
+    Attrib looked    8.09626898240106
+    Attrib hilarious    -16.442602194072737
+    Attrib ok    12.016533786860636
+    Attrib strong    5.754723338233479
+    Attrib highly    -5.115122737561429
+    Attrib decent    -11.135758201985622
+    Attrib brilliant    -4.248137842677986
+    Attrib favorite    -6.1693868720551865
+    Attrib enjoyed    3.8829477633586036
+    Attrib amazing    -17.843058029452425
+    Attrib horrible    -1.5509888957003533
+    Attrib unfortunately    1.3379031496060703
+    Attrib waste    21.95117243973035
+    Attrib oh    7.377523696487745
+    Attrib supposed    0.5037077144899845
+    Attrib worse    15.962938820301625
+    Attrib loved    -7.78776470484561
+    Attrib couldnt    2.9609178813080717
+    Attrib definitely    -6.965519141965821
+    Attrib perfect    -8.583573767894222
+    Attrib wonderful    -12.509686231312825
+    Attrib terrible    8.246124970015556
+    Attrib awful    36.93633030487235
+    Attrib stupid    6.3625137533296074
+    Attrib classic    -12.140931190048319
+    Attrib boring    13.211929340382532
+    Attrib 1    5.100164183069567
+    Attrib poor    1.0731734888341573
+    Attrib excellent    -3.346055544432054
+    Attrib beautiful    -14.507241473997166
+    Attrib instead    -16.828402793961736
+    Attrib half    25.52176303426846
+    Attrib different    1.8291856218223776
+    Attrib worst    47.25881884441785
+    Attrib minutes    11.365143594102557
+    Attrib script    -12.316808017699067
+    Attrib least    -13.512548759258408
+    Attrib always    -7.36793562510167
+    Attrib world    -18.972227789129366
+    Attrib nothing    22.853189820624415
+    Attrib years    7.997829062465279
+    Attrib why    9.381631319377863
+    Attrib best    -28.266586517843642
+    Attrib plot    -2.0301249255568408
+    Attrib love    -10.343855028455552
+    Attrib great    -17.179477377829055
+    Attrib bad    -3.2715586447114053
+    Attrib well    -5.278009387953742
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    3.2771576184578293
+    Attrib crap    -2.6865223952747335
+    Attrib attempt    -0.22853680979302654
+    Attrib looked    -0.7449844410977693
+    Attrib hilarious    -6.370231027909982
+    Attrib ok    4.0894504622440815
+    Attrib strong    -6.85266887497999
+    Attrib highly    -0.753942264440701
+    Attrib decent    -5.8321891402036625
+    Attrib brilliant    -4.021851778794636
+    Attrib favorite    1.1513695492377436
+    Attrib enjoyed    -1.4791039077374024
+    Attrib amazing    -1.0474196139678935
+    Attrib horrible    -2.0214115990122186
+    Attrib unfortunately    -1.2429950072740246
+    Attrib waste    1.0242161059135928
+    Attrib oh    8.668332079702465
+    Attrib supposed    3.7422103584389763
+    Attrib worse    1.2329140357631492
+    Attrib loved    -4.023041855138664
+    Attrib couldnt    2.6567269738460784
+    Attrib definitely    3.0160353790850247
+    Attrib perfect    4.974525308545305
+    Attrib wonderful    -1.2796389966199249
+    Attrib terrible    0.40072346139288995
+    Attrib awful    4.173988071181637
+    Attrib stupid    2.0875985971308695
+    Attrib classic    -0.650684806555025
+    Attrib boring    -2.00944505407513
+    Attrib 1    -0.08231148757417434
+    Attrib poor    14.667258591966517
+    Attrib excellent    -2.3470823099266047
+    Attrib beautiful    -2.05959716723709
+    Attrib instead    10.846370152445337
+    Attrib half    -3.9370515369166723
+    Attrib different    6.225998257261492
+    Attrib worst    -0.4533337514457937
+    Attrib minutes    6.580110105341982E-4
+    Attrib script    -1.4858794539665134
+    Attrib least    11.119611205501453
+    Attrib always    -12.960858437304791
+    Attrib world    -5.259100905579453
+    Attrib nothing    4.40648423607498
+    Attrib years    -1.0645135668901171
+    Attrib why    7.761045165287154
+    Attrib best    -3.7803435012989866
+    Attrib plot    2.5705856477008404
+    Attrib love    2.298541335409526
+    Attrib great    -5.3806522157106045
+    Attrib bad    3.235752059387961
+    Attrib well    -0.4123735266380429
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    3.02861245644935
+    Attrib crap    -0.3121160450434833
+    Attrib attempt    2.194729458679337
+    Attrib looked    -1.713121433582585
+    Attrib hilarious    -4.568103815944853
+    Attrib ok    -2.0289816930209046
+    Attrib strong    1.2046890901590905
+    Attrib highly    2.5520299416381973
+    Attrib decent    5.423397724964162
+    Attrib brilliant    -3.300833827221779
+    Attrib favorite    -2.5922788440488773
+    Attrib enjoyed    -5.807338350149302
+    Attrib amazing    -1.9075103204818862
+    Attrib horrible    -0.46888927756920185
+    Attrib unfortunately    3.7227793015896893
+    Attrib waste    1.3450479354750857
+    Attrib oh    6.352272609514916
+    Attrib supposed    4.825785544057511
+    Attrib worse    3.1123244572278543
+    Attrib loved    -4.108234397589328
+    Attrib couldnt    6.245076030760738
+    Attrib definitely    0.4045134433676084
+    Attrib perfect    -4.161693072910618
+    Attrib wonderful    -5.12055107164928
+    Attrib terrible    -1.1112793869521067
+    Attrib awful    2.4937217779366714
+    Attrib stupid    3.025330443242557
+    Attrib classic    -1.5466891160829497
+    Attrib boring    -0.71689166247006
+    Attrib 1    0.1808936047227765
+    Attrib poor    -0.5933086765186545
+    Attrib excellent    0.08510618579880609
+    Attrib beautiful    0.21342719228209747
+    Attrib instead    -1.588306253306604
+    Attrib half    0.23499051234225002
+    Attrib different    1.996580988120701
+    Attrib worst    -0.027965682726021727
+    Attrib minutes    1.2613191127112424
+    Attrib script    -0.41266471753164186
+    Attrib least    2.408474961278911
+    Attrib always    -5.035238235831061
+    Attrib world    -4.563890434071441
+    Attrib nothing    2.9319511011027317
+    Attrib years    4.963482208597423
+    Attrib why    8.275531038461862
+    Attrib best    -0.589084412267961
+    Attrib plot    4.942349973540857
+    Attrib love    -4.256866468395112
+    Attrib great    -3.0699546778441675
+    Attrib bad    -0.6762675282553398
+    Attrib well    5.3673931587557595
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    15.551245956981361
+    Attrib crap    8.888918526696825
+    Attrib attempt    5.838607484476379
+    Attrib looked    3.305544956793745
+    Attrib hilarious    -10.202753283919767
+    Attrib ok    5.713110679810643
+    Attrib strong    -1.9886892558142368
+    Attrib highly    -7.25347071730563
+    Attrib decent    14.517511351790853
+    Attrib brilliant    -9.434891220119603
+    Attrib favorite    -11.998443509042675
+    Attrib enjoyed    -14.030992605372164
+    Attrib amazing    -20.896991322211676
+    Attrib horrible    9.024468616358938
+    Attrib unfortunately    10.367963412507047
+    Attrib waste    7.244607317595695
+    Attrib oh    6.302869343706417
+    Attrib supposed    6.810107075563931
+    Attrib worse    2.478536123385544
+    Attrib loved    -7.894504841253202
+    Attrib couldnt    -5.412934902456478
+    Attrib definitely    -15.107828874669124
+    Attrib perfect    -8.971361338292905
+    Attrib wonderful    -13.744843780093207
+    Attrib terrible    10.017829494086632
+    Attrib awful    11.979776079619437
+    Attrib stupid    9.77312322785907
+    Attrib classic    -12.725262010175797
+    Attrib boring    8.271824626448526
+    Attrib 1    8.375718912246986
+    Attrib poor    14.707573902141506
+    Attrib excellent    -19.380929813017623
+    Attrib beautiful    -9.509258706996118
+    Attrib instead    15.417389481452764
+    Attrib half    4.2205314795180024
+    Attrib different    -3.7707263778733853
+    Attrib worst    14.927054290361523
+    Attrib minutes    14.842183537368271
+    Attrib script    -0.31756222176660975
+    Attrib least    8.83113578923476
+    Attrib always    6.420153908185145
+    Attrib world    -11.518518017275623
+    Attrib nothing    12.983163500970617
+    Attrib years    0.9944370348367517
+    Attrib why    2.0599847407650094
+    Attrib best    -15.864868532134526
+    Attrib plot    12.35141304896386
+    Attrib love    -13.58085628320512
+    Attrib great    -16.48171956272776
+    Attrib bad    24.673218533272138
+    Attrib well    3.325896428915848
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    18.71399233061774
+    Attrib crap    26.516275183384483
+    Attrib attempt    4.199439423060684
+    Attrib looked    -5.249754847407613
+    Attrib hilarious    1.538404947242022
+    Attrib ok    13.005464065127347
+    Attrib strong    -20.25935464704846
+    Attrib highly    1.8698940364746215
+    Attrib decent    -8.350914881773809
+    Attrib brilliant    -6.948331649931448
+    Attrib favorite    -8.693081950236374
+    Attrib enjoyed    -13.554191051145297
+    Attrib amazing    -12.711768116967926
+    Attrib horrible    23.573162247979187
+    Attrib unfortunately    -11.41984565400736
+    Attrib waste    18.98456902523785
+    Attrib oh    4.3282389877281
+    Attrib supposed    9.72340999922543
+    Attrib worse    -1.4250202857256524
+    Attrib loved    0.16541463561830028
+    Attrib couldnt    -0.18091694327636698
+    Attrib definitely    -10.723856192753958
+    Attrib perfect    -5.627010554225849
+    Attrib wonderful    -7.343031555971837
+    Attrib terrible    17.35091055560366
+    Attrib awful    24.760212826515453
+    Attrib stupid    24.1127474438946
+    Attrib classic    -14.05102642675322
+    Attrib boring    -1.0229084147781604
+    Attrib 1    15.458230568997875
+    Attrib poor    18.35545989987936
+    Attrib excellent    -28.57718277268866
+    Attrib beautiful    -11.356276448816883
+    Attrib instead    4.150837819330528
+    Attrib half    -3.5007204362210205
+    Attrib different    -12.47215081776333
+    Attrib worst    19.928821672080897
+    Attrib minutes    7.0277261588531434
+    Attrib script    4.991624031633342
+    Attrib least    18.863228384596678
+    Attrib always    -10.32662702421158
+    Attrib world    -24.664279821217466
+    Attrib nothing    17.282010954557695
+    Attrib years    -10.08445836076745
+    Attrib why    -2.6151820546458824
+    Attrib best    -11.344834387891215
+    Attrib plot    11.718540816710659
+    Attrib love    -21.2095487917706
+    Attrib great    -18.36284139098472
+    Attrib bad    28.753787383571396
+    Attrib well    -10.110103991105005
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    13.739326806501522
+    Attrib crap    -1.5288571395190897
+    Attrib attempt    3.881906008765477
+    Attrib looked    -1.6094464338644818
+    Attrib hilarious    -12.551711910562293
+    Attrib ok    6.138254751820343
+    Attrib strong    -2.236703480551302
+    Attrib highly    -8.603753887315468
+    Attrib decent    6.22193566311995
+    Attrib brilliant    -7.539151262118052
+    Attrib favorite    -17.324961754939373
+    Attrib enjoyed    -0.9484545649894844
+    Attrib amazing    -24.846357846665743
+    Attrib horrible    4.407804730497925
+    Attrib unfortunately    6.842132996542377
+    Attrib waste    12.10691854069419
+    Attrib oh    2.5322903858666237
+    Attrib supposed    5.706454369930464
+    Attrib worse    7.8480009720586965
+    Attrib loved    -11.680122389893244
+    Attrib couldnt    -0.9906741966162914
+    Attrib definitely    -1.8835181506632563
+    Attrib perfect    -9.816184160910764
+    Attrib wonderful    -19.85890565231056
+    Attrib terrible    15.80341275718877
+    Attrib awful    31.946358509641456
+    Attrib stupid    7.410536914993503
+    Attrib classic    -10.075063830484316
+    Attrib boring    23.072015021017027
+    Attrib 1    6.853098296850785
+    Attrib poor    1.8587541722118492
+    Attrib excellent    -11.020650862936918
+    Attrib beautiful    -10.580855785780354
+    Attrib instead    7.481260512895218
+    Attrib half    8.032168733781104
+    Attrib different    -10.12514633651221
+    Attrib worst    26.883742619849716
+    Attrib minutes    11.118862560042585
+    Attrib script    17.06869304634659
+    Attrib least    -5.661988772571203
+    Attrib always    -8.788773270345681
+    Attrib world    -9.453974109071812
+    Attrib nothing    24.46297655240045
+    Attrib years    0.6970386007110002
+    Attrib why    7.087497751499479
+    Attrib best    -19.554871500147357
+    Attrib plot    3.5855830984763846
+    Attrib love    -8.139886331388674
+    Attrib great    -14.178717017083388
+    Attrib bad    2.4496375506916985
+    Attrib well    -9.72545897120274
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    14.871619654441323
+    Attrib crap    4.755064569042381
+    Attrib attempt    -5.3042645004123
+    Attrib looked    2.066588291144701
+    Attrib hilarious    -6.347568381147447
+    Attrib ok    16.158854022691486
+    Attrib strong    0.5476382281304445
+    Attrib highly    -9.47915498073675
+    Attrib decent    -0.7154062906470479
+    Attrib brilliant    -17.05143419201825
+    Attrib favorite    -6.659411510353095
+    Attrib enjoyed    -22.79491196370297
+    Attrib amazing    -23.85756325678299
+    Attrib horrible    20.552708207951497
+    Attrib unfortunately    -1.128904795236737
+    Attrib waste    14.32305392312079
+    Attrib oh    15.879137647596217
+    Attrib supposed    9.889667333082025
+    Attrib worse    10.507027267742595
+    Attrib loved    -17.57942715585661
+    Attrib couldnt    7.4907196174896145
+    Attrib definitely    -9.269659990066597
+    Attrib perfect    -23.62778955652583
+    Attrib wonderful    -10.191259055588324
+    Attrib terrible    11.36478539868916
+    Attrib awful    27.42390720364579
+    Attrib stupid    9.083906695900195
+    Attrib classic    13.1725136276777
+    Attrib boring    13.147978292732354
+    Attrib 1    11.775897434224312
+    Attrib poor    -0.7511614301652394
+    Attrib excellent    -9.517947980652732
+    Attrib beautiful    -14.773919533723035
+    Attrib instead    0.7617489358448757
+    Attrib half    15.197968109652034
+    Attrib different    -9.4755044543743
+    Attrib worst    18.191636937412024
+    Attrib minutes    7.5863704923042965
+    Attrib script    19.777449945089472
+    Attrib least    12.203100427727232
+    Attrib always    -21.443636223131314
+    Attrib world    -11.513568172994288
+    Attrib nothing    11.581154614357523
+    Attrib years    -9.53347268373118
+    Attrib why    8.542096400232806
+    Attrib best    -26.96337485971208
+    Attrib plot    9.705642647644924
+    Attrib love    2.6386427820893896
+    Attrib great    -17.806601278654515
+    Attrib bad    18.922317902808636
+    Attrib well    -13.806359678342268
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    9.941107503163353
+    Attrib crap    0.37456744736567
+    Attrib attempt    6.8636456895987115
+    Attrib looked    -0.971837874044382
+    Attrib hilarious    -6.573219172329085
+    Attrib ok    2.9313621652748605
+    Attrib strong    1.1373753285832808
+    Attrib highly    -9.794150279106915
+    Attrib decent    14.519607375654106
+    Attrib brilliant    -4.5540158589702555
+    Attrib favorite    -11.328337468566609
+    Attrib enjoyed    -5.487185836135173
+    Attrib amazing    -14.096278045964826
+    Attrib horrible    -0.1854561876450479
+    Attrib unfortunately    12.276094665427236
+    Attrib waste    10.98743591002837
+    Attrib oh    8.225454502132388
+    Attrib supposed    19.390034151914218
+    Attrib worse    1.4826814754699806
+    Attrib loved    -8.10208994091885
+    Attrib couldnt    -0.8046063153421599
+    Attrib definitely    4.277872298362256
+    Attrib perfect    -8.830099603480589
+    Attrib wonderful    -11.413849084694881
+    Attrib terrible    6.166138026625581
+    Attrib awful    7.664606830026716
+    Attrib stupid    10.230019566569897
+    Attrib classic    0.2292043704771457
+    Attrib boring    7.500868915652885
+    Attrib 1    3.443378811477285
+    Attrib poor    5.221146484434474
+    Attrib excellent    -8.579217361535267
+    Attrib beautiful    -8.671725378020572
+    Attrib instead    8.132672534419259
+    Attrib half    3.3250787421466494
+    Attrib different    -3.3420561961762094
+    Attrib worst    9.289175390221317
+    Attrib minutes    7.8783913218625266
+    Attrib script    3.720994286821442
+    Attrib least    1.1065069949452182
+    Attrib always    -0.4595580055743338
+    Attrib world    -9.187336534212497
+    Attrib nothing    9.313324911317304
+    Attrib years    4.451185321129794
+    Attrib why    6.009296037459395
+    Attrib best    -9.669761965259271
+    Attrib plot    3.590288902661951
+    Attrib love    -14.879150539123664
+    Attrib great    -13.404201332363849
+    Attrib bad    18.593284628232205
+    Attrib well    -5.790031531087409
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    2.688200660330494
+    Attrib crap    3.720915155675615
+    Attrib attempt    0.2879841919063566
+    Attrib looked    -0.4337102748832657
+    Attrib hilarious    -3.8375782413287753
+    Attrib ok    1.9895681924413664
+    Attrib strong    -5.401971036392138
+    Attrib highly    -1.807803388464014
+    Attrib decent    -1.7692566892702892
+    Attrib brilliant    -0.45652522628941805
+    Attrib favorite    -1.960684685096359
+    Attrib enjoyed    -1.004671909992847
+    Attrib amazing    -3.486058739850066
+    Attrib horrible    -1.452456355027552
+    Attrib unfortunately    3.2735588413819565
+    Attrib waste    0.22722694767493573
+    Attrib oh    1.9017039503592252
+    Attrib supposed    6.116724039875846
+    Attrib worse    1.8777930693808682
+    Attrib loved    -4.565322956038596
+    Attrib couldnt    -2.8342984778508895
+    Attrib definitely    -4.729103022253301
+    Attrib perfect    5.385181164293385
+    Attrib wonderful    4.740113948680951
+    Attrib terrible    3.0411831826120124
+    Attrib awful    2.05097096644227
+    Attrib stupid    0.5498760174889521
+    Attrib classic    6.704427878455229
+    Attrib boring    -1.488975891695539
+    Attrib 1    2.7549322431806935
+    Attrib poor    2.612853741499393
+    Attrib excellent    0.6774776115755773
+    Attrib beautiful    3.1578977628786626
+    Attrib instead    12.588359634197818
+    Attrib half    -2.523618194555278
+    Attrib different    -2.9023046060446656
+    Attrib worst    -0.3616681730396421
+    Attrib minutes    -1.0065828041800013
+    Attrib script    1.6075116497188269
+    Attrib least    -2.8718459520107835
+    Attrib always    -9.806503237626435
+    Attrib world    -4.570313138577247
+    Attrib nothing    8.591812442264732
+    Attrib years    2.810135208826871
+    Attrib why    -0.012670274596008954
+    Attrib best    -7.188424340875202
+    Attrib plot    2.8582320668196424
+    Attrib love    -5.516169829697393
+    Attrib great    -3.008271176980867
+    Attrib bad    8.868689380458868
+    Attrib well    4.334573665550051
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    14.834878442364518
+    Attrib crap    10.835587984258332
+    Attrib attempt    18.36680288188405
+    Attrib looked    8.102967523711765
+    Attrib hilarious    -0.7370391215360039
+    Attrib ok    0.1833442584670801
+    Attrib strong    4.379392732286029
+    Attrib highly    -3.6188306800682417
+    Attrib decent    3.226907912261379
+    Attrib brilliant    -8.405238804333218
+    Attrib favorite    -17.112044671131624
+    Attrib enjoyed    -1.8505581320749696
+    Attrib amazing    -15.361038124998437
+    Attrib horrible    3.778466687452848
+    Attrib unfortunately    10.312452221492668
+    Attrib waste    -0.8737942359039993
+    Attrib oh    -1.066180691113086
+    Attrib supposed    5.744622155804857
+    Attrib worse    3.1021040402979017
+    Attrib loved    -11.124712234335412
+    Attrib couldnt    -2.0778102769507285
+    Attrib definitely    -10.215381305355356
+    Attrib perfect    -2.114059739832174
+    Attrib wonderful    -16.660836264500123
+    Attrib terrible    4.079340736293194
+    Attrib awful    8.160560814737368
+    Attrib stupid    4.3377282068665775
+    Attrib classic    -5.10046574538149
+    Attrib boring    -2.3575524493437743
+    Attrib 1    -0.19428283376759775
+    Attrib poor    9.856304138571014
+    Attrib excellent    -9.744919087432795
+    Attrib beautiful    -10.601888148852098
+    Attrib instead    2.6069467226731433
+    Attrib half    23.972554772026864
+    Attrib different    -14.189644798761785
+    Attrib worst    16.439439097444804
+    Attrib minutes    2.3119022156787397
+    Attrib script    7.143654128537538
+    Attrib least    13.521411740844734
+    Attrib always    4.364079509991805
+    Attrib world    -15.820859602156037
+    Attrib nothing    15.078929293592982
+    Attrib years    -0.4422460731184375
+    Attrib why    -0.03675063937721001
+    Attrib best    -14.960266164707713
+    Attrib plot    26.818832851791324
+    Attrib love    -8.1466775713489
+    Attrib great    -15.65957408631763
+    Attrib bad    9.87595542792075
+    Attrib well    8.245570104141894
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    19.020297028739122
+    Attrib crap    5.208366116324902
+    Attrib attempt    22.028827752212813
+    Attrib looked    5.6457565856663745
+    Attrib hilarious    -20.343189109902347
+    Attrib ok    1.2055865907568009
+    Attrib strong    -19.206107249533854
+    Attrib highly    -0.14926109575404464
+    Attrib decent    -2.8071000447915178
+    Attrib brilliant    -6.630538251741833
+    Attrib favorite    -21.72539992818037
+    Attrib enjoyed    -17.36177748070079
+    Attrib amazing    -16.178732497979514
+    Attrib horrible    18.304589643377277
+    Attrib unfortunately    15.179920110091892
+    Attrib waste    20.529616309610848
+    Attrib oh    6.475359375163849
+    Attrib supposed    -0.9249493212413931
+    Attrib worse    10.986949118688027
+    Attrib loved    -3.6259119583174018
+    Attrib couldnt    2.7968174384984987
+    Attrib definitely    -0.7703213191834608
+    Attrib perfect    -11.900865391345878
+    Attrib wonderful    -20.962977903400763
+    Attrib terrible    28.525137832756396
+    Attrib awful    18.484832290409717
+    Attrib stupid    25.582146926569777
+    Attrib classic    -11.191455391792367
+    Attrib boring    11.129109442256311
+    Attrib 1    24.76569670857015
+    Attrib poor    19.176225741137962
+    Attrib excellent    -18.068611979385018
+    Attrib beautiful    -13.852144940726019
+    Attrib instead    11.135538989520226
+    Attrib half    -14.658349507182212
+    Attrib different    -15.130537382222508
+    Attrib worst    38.21144868947441
+    Attrib minutes    7.840501434680311
+    Attrib script    9.064314768587002
+    Attrib least    -20.88882153305597
+    Attrib always    -15.613113732736403
+    Attrib world    -23.65737397294856
+    Attrib nothing    22.647834435294136
+    Attrib years    -8.060677202130163
+    Attrib why    7.3731432766855
+    Attrib best    -12.180826450977136
+    Attrib plot    16.107094489907336
+    Attrib love    -19.236338424817077
+    Attrib great    -10.525253538384694
+    Attrib bad    13.34124450113876
+    Attrib well    -13.018850595204999
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    7.066815767225978
+    Attrib crap    -3.045050453002813
+    Attrib attempt    12.526692276188918
+    Attrib looked    7.379289647402093
+    Attrib hilarious    -5.797542577163163
+    Attrib ok    1.8573962605150593
+    Attrib strong    2.188323219924187
+    Attrib highly    -8.699951043016382
+    Attrib decent    -2.992096244974731
+    Attrib brilliant    -4.409208375882823
+    Attrib favorite    1.896670987579081
+    Attrib enjoyed    3.7750463783705825
+    Attrib amazing    -9.102825388159891
+    Attrib horrible    5.7098397896129525
+    Attrib unfortunately    -3.3072489335278807
+    Attrib waste    6.93805620531973
+    Attrib oh    6.584941060912893
+    Attrib supposed    6.88827002015198
+    Attrib worse    -1.7165654075853254
+    Attrib loved    -0.3238803861951493
+    Attrib couldnt    5.824748647904429
+    Attrib definitely    0.8820608544323296
+    Attrib perfect    -13.098410714822029
+    Attrib wonderful    1.8176827906655353
+    Attrib terrible    -0.43119174184435083
+    Attrib awful    10.847696076184254
+    Attrib stupid    5.565007725565528
+    Attrib classic    12.568128009994687
+    Attrib boring    3.7631366553477563
+    Attrib 1    0.2826917495710743
+    Attrib poor    10.885012545005536
+    Attrib excellent    -3.127024565467345
+    Attrib beautiful    -11.73818304817347
+    Attrib instead    -4.870705525669511
+    Attrib half    -7.312880851318051
+    Attrib different    8.40834545927994
+    Attrib worst    5.509756445335771
+    Attrib minutes    2.7724972760633375
+    Attrib script    12.684920967015877
+    Attrib least    18.291829159288277
+    Attrib always    -12.52832920929591
+    Attrib world    -15.12218417893666
+    Attrib nothing    5.4028314133650435
+    Attrib years    -8.088528560096488
+    Attrib why    1.278451500925957
+    Attrib best    -9.356290887164771
+    Attrib plot    9.66773950734189
+    Attrib love    -1.7013644514194723
+    Attrib great    -13.53463322441722
+    Attrib bad    -2.6523195706476526
+    Attrib well    -11.471541427555787
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    4.031981052116926
+    Attrib crap    4.203452405566197
+    Attrib attempt    -2.3776810776574235
+    Attrib looked    0.4662263013066057
+    Attrib hilarious    0.4770302078213105
+    Attrib ok    1.3101756736623253
+    Attrib strong    8.310432292222245
+    Attrib highly    -6.399713303036941
+    Attrib decent    1.7946645039552989
+    Attrib brilliant    -4.774016900409266
+    Attrib favorite    -4.905607008781451
+    Attrib enjoyed    2.8938311985985368
+    Attrib amazing    -7.7981186741388315
+    Attrib horrible    1.2213399665178266
+    Attrib unfortunately    5.8156035742863725
+    Attrib waste    3.7947516818792497
+    Attrib oh    -3.311141527396009
+    Attrib supposed    6.825966637698888
+    Attrib worse    7.562630365877907
+    Attrib loved    -4.216050988848526
+    Attrib couldnt    3.768485056609171
+    Attrib definitely    -1.0748058689227242
+    Attrib perfect    -6.171193920951131
+    Attrib wonderful    -2.6736558320693993
+    Attrib terrible    -5.109188265898909
+    Attrib awful    8.200593260324325
+    Attrib stupid    1.6587474994507683
+    Attrib classic    -3.7077249888115165
+    Attrib boring    9.077031950392909
+    Attrib 1    4.2619240255596695
+    Attrib poor    2.761041525572561
+    Attrib excellent    8.425140897947862E-4
+    Attrib beautiful    3.8071995511230217
+    Attrib instead    1.1758799740675006
+    Attrib half    -0.34773365036988724
+    Attrib different    -7.238274993185246
+    Attrib worst    6.038981926744975
+    Attrib minutes    12.28333525336746
+    Attrib script    0.8004398418055801
+    Attrib least    -3.452642020475668
+    Attrib always    -0.48741615490399354
+    Attrib world    -6.78404962375387
+    Attrib nothing    10.902759025711559
+    Attrib years    -5.215091380723284
+    Attrib why    -0.09204219566062352
+    Attrib best    -4.7720283829525805
+    Attrib plot    7.91519109340706
+    Attrib love    -5.685447064786206
+    Attrib great    -3.2298389186737677
+    Attrib bad    0.845503162668761
+    Attrib well    -6.20741825790198
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    16.892899547205005
+    Attrib crap    13.758308053294236
+    Attrib attempt    5.3809692018978215
+    Attrib looked    2.8395072675286133
+    Attrib hilarious    -10.927759603178261
+    Attrib ok    10.860588144506345
+    Attrib strong    -8.843228594633956
+    Attrib highly    -6.129147038928892
+    Attrib decent    7.743343201335233
+    Attrib brilliant    -11.919437543973984
+    Attrib favorite    -14.074057749769997
+    Attrib enjoyed    -11.06210429205145
+    Attrib amazing    -21.702874621133
+    Attrib horrible    6.462941361256983
+    Attrib unfortunately    -2.518889917255592
+    Attrib waste    13.764771902152683
+    Attrib oh    10.442292400873008
+    Attrib supposed    10.620557432641522
+    Attrib worse    -2.006185382088791
+    Attrib loved    -11.348499226528148
+    Attrib couldnt    8.467553024457047
+    Attrib definitely    -6.307901194794522
+    Attrib perfect    -17.908522295254606
+    Attrib wonderful    -9.662039167479309
+    Attrib terrible    21.134739149325657
+    Attrib awful    23.44697489372831
+    Attrib stupid    16.9528570724652
+    Attrib classic    -11.545927769217675
+    Attrib boring    11.69412774012697
+    Attrib 1    13.953470563694774
+    Attrib poor    9.762237386939633
+    Attrib excellent    -16.60605004222909
+    Attrib beautiful    -9.64277328985817
+    Attrib instead    4.433025988507909
+    Attrib half    4.991554237057824
+    Attrib different    -6.6156509827853425
+    Attrib worst    25.867482516684195
+    Attrib minutes    6.087783225156537
+    Attrib script    14.49091636032935
+    Attrib least    13.227028753447952
+    Attrib always    -7.888625783081195
+    Attrib world    -20.02323617189047
+    Attrib nothing    23.21871250971217
+    Attrib years    -6.537734706483456
+    Attrib why    11.814410363681173
+    Attrib best    -23.495341944420595
+    Attrib plot    15.116092629021832
+    Attrib love    -17.603925729522103
+    Attrib great    -14.260934526830084
+    Attrib bad    14.319838134472917
+    Attrib well    -10.032564226257097
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    19.039982329364726
+    Attrib crap    1.113731070890802
+    Attrib attempt    9.228136091015843
+    Attrib looked    15.603967789993002
+    Attrib hilarious    -14.295917677046512
+    Attrib ok    -3.420177308905382
+    Attrib strong    -15.526287723081706
+    Attrib highly    -13.56967543826715
+    Attrib decent    -2.0061006998954696
+    Attrib brilliant    -9.970938996007877
+    Attrib favorite    -14.60668958021799
+    Attrib enjoyed    0.7470609563552807
+    Attrib amazing    -28.152348128595804
+    Attrib horrible    11.397738487630756
+    Attrib unfortunately    1.138311633306445
+    Attrib waste    3.008188504378898
+    Attrib oh    -1.929515938424488
+    Attrib supposed    1.818089877758279
+    Attrib worse    21.02918619914737
+    Attrib loved    -5.900259732260587
+    Attrib couldnt    -0.385898431108891
+    Attrib definitely    2.2972865177103645
+    Attrib perfect    -18.769659581434937
+    Attrib wonderful    -14.948316062965159
+    Attrib terrible    23.246697244764047
+    Attrib awful    44.1995752281831
+    Attrib stupid    13.467051872334498
+    Attrib classic    -3.7423367666169898
+    Attrib boring    31.498739416977493
+    Attrib 1    12.288385721397841
+    Attrib poor    1.379953750429321
+    Attrib excellent    -3.649756629342794
+    Attrib beautiful    -4.519164549252997
+    Attrib instead    -13.591898914796735
+    Attrib half    10.97547448473166
+    Attrib different    -21.42177831766234
+    Attrib worst    39.058295402823525
+    Attrib minutes    17.04892324108687
+    Attrib script    2.9987401438067365
+    Attrib least    5.703362112668952
+    Attrib always    -5.203439514098592
+    Attrib world    -21.246191858882447
+    Attrib nothing    13.14329327805299
+    Attrib years    -7.535402506559488
+    Attrib why    -0.4887310350579338
+    Attrib best    -15.789144031126684
+    Attrib plot    2.734780093534542
+    Attrib love    -6.530040709706978
+    Attrib great    -3.4813477783774274
+    Attrib bad    -2.2935665040991635
+    Attrib well    -5.319812243432727
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    13.003085193300912
+    Attrib crap    14.226503651933237
+    Attrib attempt    -4.0737986990996955
+    Attrib looked    13.32517417931627
+    Attrib hilarious    -10.018124847206721
+    Attrib ok    -3.4155034828056023
+    Attrib strong    -15.304303082107468
+    Attrib highly    -4.696305047579573
+    Attrib decent    1.3341475334183621
+    Attrib brilliant    2.2130695727332315
+    Attrib favorite    -16.154277229442428
+    Attrib enjoyed    5.526911486117412
+    Attrib amazing    -11.768755500513956
+    Attrib horrible    1.1594732516086104
+    Attrib unfortunately    25.718821141533866
+    Attrib waste    17.532608500016202
+    Attrib oh    -1.6165892108055766
+    Attrib supposed    7.103953460218217
+    Attrib worse    13.480648146732223
+    Attrib loved    -12.070664944800848
+    Attrib couldnt    11.66371983945098
+    Attrib definitely    -23.928297919389312
+    Attrib perfect    -6.823618367266335
+    Attrib wonderful    -16.14917415950214
+    Attrib terrible    6.121824447243874
+    Attrib awful    6.050733207016512
+    Attrib stupid    7.352219511197783
+    Attrib classic    -3.2059356130919183
+    Attrib boring    2.084934438122908
+    Attrib 1    0.9130017095133208
+    Attrib poor    6.222003331300004
+    Attrib excellent    -8.484372584004225
+    Attrib beautiful    1.562388850442454
+    Attrib instead    6.1835376275928
+    Attrib half    0.18798579130631288
+    Attrib different    -6.339627587263254
+    Attrib worst    18.402704601755627
+    Attrib minutes    10.42982949717208
+    Attrib script    2.095721506729707
+    Attrib least    6.400155279004899
+    Attrib always    7.768849725041215
+    Attrib world    -12.422905345944574
+    Attrib nothing    12.96162571202171
+    Attrib years    -2.208997605730449
+    Attrib why    -5.381107305890663
+    Attrib best    -10.303270313040805
+    Attrib plot    3.897258230282935
+    Attrib love    -8.526700403043066
+    Attrib great    -6.495915761127119
+    Attrib bad    11.53702110668674
+    Attrib well    -6.442108200243844
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    13.004620767233943
+    Attrib crap    1.2449617237911206
+    Attrib attempt    13.759723628053385
+    Attrib looked    2.7992663203029817
+    Attrib hilarious    -7.717574233161443
+    Attrib ok    4.963198899077422
+    Attrib strong    -3.298427200555388
+    Attrib highly    -12.39628225958107
+    Attrib decent    3.6025086452711323
+    Attrib brilliant    -5.40742596014894
+    Attrib favorite    -9.721886550709463
+    Attrib enjoyed    -8.575852220607912
+    Attrib amazing    -14.737047972862085
+    Attrib horrible    4.734586351412725
+    Attrib unfortunately    14.222383457828853
+    Attrib waste    2.5931223672620214
+    Attrib oh    6.715114442161921
+    Attrib supposed    16.111683063101907
+    Attrib worse    2.656455930455499
+    Attrib loved    -8.218573232913512
+    Attrib couldnt    -2.519575588256991
+    Attrib definitely    -3.705513387097678
+    Attrib perfect    -7.31189922545017
+    Attrib wonderful    -12.730999155858877
+    Attrib terrible    8.608015485665753
+    Attrib awful    11.020227854303878
+    Attrib stupid    12.860203392703351
+    Attrib classic    -10.083908389640031
+    Attrib boring    5.561740025327991
+    Attrib 1    8.45101490654128
+    Attrib poor    5.661670980299585
+    Attrib excellent    -13.82307967014762
+    Attrib beautiful    -8.071713226372088
+    Attrib instead    14.341721605594902
+    Attrib half    5.8420622072305415
+    Attrib different    -5.547254671754049
+    Attrib worst    12.31523572499182
+    Attrib minutes    5.007154474407097
+    Attrib script    1.848694688898547
+    Attrib least    5.501603847816671
+    Attrib always    -0.9675315458792888
+    Attrib world    -10.691537750715096
+    Attrib nothing    13.705805933043324
+    Attrib years    -6.551904752111813
+    Attrib why    6.091602659887769
+    Attrib best    -10.153567117732395
+    Attrib plot    5.757523306346197
+    Attrib love    -4.18200301852855
+    Attrib great    -14.53114479464911
+    Attrib bad    21.569523148172404
+    Attrib well    -2.7282193267145223
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    2.521745265006507
+    Attrib crap    6.255506667382885
+    Attrib attempt    1.30620619109131
+    Attrib looked    3.9858844049802302
+    Attrib hilarious    -3.0984262762264074
+    Attrib ok    13.007504975302163
+    Attrib strong    2.820637425514613
+    Attrib highly    -6.845066866482578
+    Attrib decent    5.625011730715921
+    Attrib brilliant    4.582647999515737
+    Attrib favorite    -1.378841823954985
+    Attrib enjoyed    -6.49321983349506
+    Attrib amazing    -5.350640338638301
+    Attrib horrible    0.2889983092575804
+    Attrib unfortunately    4.9432515821967105
+    Attrib waste    3.386310066800862
+    Attrib oh    -1.7324452646309416
+    Attrib supposed    0.0726178119301769
+    Attrib worse    1.4356410128621913
+    Attrib loved    -4.824121699070044
+    Attrib couldnt    4.9515474604014
+    Attrib definitely    -6.342318397556885
+    Attrib perfect    -4.874732732926233
+    Attrib wonderful    -2.10056645600284
+    Attrib terrible    -0.5816156365839867
+    Attrib awful    2.5192611910989564
+    Attrib stupid    5.335199258840122
+    Attrib classic    -0.9789715183139004
+    Attrib boring    -0.7898874375012772
+    Attrib 1    -0.2533503371281419
+    Attrib poor    -2.16405345380657
+    Attrib excellent    -4.10364910861534
+    Attrib beautiful    10.83459525956212
+    Attrib instead    7.538197173997184
+    Attrib half    2.637651218573361
+    Attrib different    -4.2945941883288885
+    Attrib worst    1.9782203358988635
+    Attrib minutes    0.35583270150339463
+    Attrib script    3.9515288673774456
+    Attrib least    -3.792949164217649
+    Attrib always    15.94504753175606
+    Attrib world    -2.7325071311743616
+    Attrib nothing    6.409173445836024
+    Attrib years    -0.03622682986437553
+    Attrib why    4.7253669669295775
+    Attrib best    -11.667289273519774
+    Attrib plot    -2.3665717046162165
+    Attrib love    -12.701431019416603
+    Attrib great    -1.7272223208166884
+    Attrib bad    0.8391845151537247
+    Attrib well    -9.828730126716938
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    28.182463482819344
+    Attrib crap    8.112885680151749
+    Attrib attempt    11.501301819858657
+    Attrib looked    11.430634919820204
+    Attrib hilarious    -16.361536149874514
+    Attrib ok    10.580497389172134
+    Attrib strong    -25.40504478652131
+    Attrib highly    -12.99828111601278
+    Attrib decent    18.306260729436623
+    Attrib brilliant    -21.309221788283963
+    Attrib favorite    -25.492916698215
+    Attrib enjoyed    -29.14948176284195
+    Attrib amazing    -24.85070020514629
+    Attrib horrible    27.196007196959737
+    Attrib unfortunately    -2.5290719841832163
+    Attrib waste    13.521287546808985
+    Attrib oh    9.379599546985494
+    Attrib supposed    18.05105314882146
+    Attrib worse    -1.3671793576571283
+    Attrib loved    -9.847250453159253
+    Attrib couldnt    21.894153800150693
+    Attrib definitely    -14.056266214210606
+    Attrib perfect    -10.47743266004181
+    Attrib wonderful    -17.536163414267804
+    Attrib terrible    12.341985544847235
+    Attrib awful    19.184242867949216
+    Attrib stupid    20.122020356260222
+    Attrib classic    -15.102536058019924
+    Attrib boring    6.377779031206991
+    Attrib 1    10.627298031679038
+    Attrib poor    27.669558132588715
+    Attrib excellent    -19.853760294773227
+    Attrib beautiful    -3.712208955918758
+    Attrib instead    20.912365070047606
+    Attrib half    14.70893268760468
+    Attrib different    -6.929450988354373
+    Attrib worst    26.997273563819874
+    Attrib minutes    2.2806576942561594
+    Attrib script    -1.9583337587473082
+    Attrib least    18.765292434537734
+    Attrib always    -7.290652439624778
+    Attrib world    -20.93255429344488
+    Attrib nothing    19.671838384451547
+    Attrib years    1.5525658214514462
+    Attrib why    17.15075226152077
+    Attrib best    -35.51679961077758
+    Attrib plot    -1.8275393288446116
+    Attrib love    -22.285916901731316
+    Attrib great    -24.059716706550983
+    Attrib bad    38.19544140186764
+    Attrib well    -4.330565887984656
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    3.4924636980929424
+    Attrib crap    4.6962405626716155
+    Attrib attempt    0.7829316291908838
+    Attrib looked    0.9700061828284553
+    Attrib hilarious    -1.809411635564096
+    Attrib ok    2.1590681021125593
+    Attrib strong    3.3604995738250234
+    Attrib highly    -2.7412465793992755
+    Attrib decent    -0.5312222116866832
+    Attrib brilliant    -8.121781443518064
+    Attrib favorite    -3.756739000394701
+    Attrib enjoyed    -5.551197416798409
+    Attrib amazing    -1.192230337310678
+    Attrib horrible    0.2640057181735318
+    Attrib unfortunately    -2.3349554760393043
+    Attrib waste    3.3909722310581416
+    Attrib oh    4.193353843544326
+    Attrib supposed    6.278948230150208
+    Attrib worse    -1.8717657567401826
+    Attrib loved    -3.5792347923999324
+    Attrib couldnt    1.5746855247637912
+    Attrib definitely    4.846844280150942
+    Attrib perfect    -3.587341118732064
+    Attrib wonderful    -1.3531906492107484
+    Attrib terrible    2.98280266401484
+    Attrib awful    4.551372769596083
+    Attrib stupid    5.495147248829044
+    Attrib classic    8.20575644892653
+    Attrib boring    -3.5973904466918616
+    Attrib 1    2.14529825817117
+    Attrib poor    8.679961839516942
+    Attrib excellent    -6.380291652804607
+    Attrib beautiful    -4.971799749493467
+    Attrib instead    7.787249848503011
+    Attrib half    8.118987878256348
+    Attrib different    16.549411313186802
+    Attrib worst    1.5252455505366593
+    Attrib minutes    -3.101678828536487
+    Attrib script    -3.656197870976903
+    Attrib least    -3.540559066459044
+    Attrib always    -11.330059635330107
+    Attrib world    -8.890099223176504
+    Attrib nothing    2.392043977318356
+    Attrib years    -8.455583350577811
+    Attrib why    9.507895129541927
+    Attrib best    -2.7366797333196606
+    Attrib plot    0.6694169435878274
+    Attrib love    -0.5083139264983862
+    Attrib great    -8.887364315380323
+    Attrib bad    5.728091670457612
+    Attrib well    -1.216958551750242
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    5.041020783974519
+    Attrib crap    0.9140317484594083
+    Attrib attempt    3.881026204317425
+    Attrib looked    1.464019482368729
+    Attrib hilarious    -2.355535473400148
+    Attrib ok    8.983743269257902
+    Attrib strong    4.071208745233643
+    Attrib highly    -9.645594062380937
+    Attrib decent    -3.0107668553801568
+    Attrib brilliant    -9.162468299208728
+    Attrib favorite    -6.031010618444959
+    Attrib enjoyed    -6.540869148648461
+    Attrib amazing    -13.211126530672015
+    Attrib horrible    5.08524338384349
+    Attrib unfortunately    -3.300887751557074
+    Attrib waste    7.6797518348121105
+    Attrib oh    3.816597775672483
+    Attrib supposed    2.305282709770252
+    Attrib worse    14.350848541090144
+    Attrib loved    -1.5144904975723008
+    Attrib couldnt    4.444777587663852
+    Attrib definitely    6.26203147063806
+    Attrib perfect    -17.886759279746872
+    Attrib wonderful    1.4464337741346946
+    Attrib terrible    3.383531769904092
+    Attrib awful    28.82685742213602
+    Attrib stupid    5.7465018871977245
+    Attrib classic    5.803529854508409
+    Attrib boring    -0.7926480776563813
+    Attrib 1    5.340551871206403
+    Attrib poor    6.672224626306021
+    Attrib excellent    -9.958345610529639
+    Attrib beautiful    -3.2404996317528716
+    Attrib instead    -8.12017752493968
+    Attrib half    0.24374886163585507
+    Attrib different    -4.0090469897865715
+    Attrib worst    9.648696051089361
+    Attrib minutes    3.5590873195324795
+    Attrib script    13.49860108576609
+    Attrib least    6.775402616669454
+    Attrib always    -3.2428242460349646
+    Attrib world    -10.00893845053719
+    Attrib nothing    5.940691843555187
+    Attrib years    -9.275639061873356
+    Attrib why    1.4219059852542477
+    Attrib best    -15.55769970725092
+    Attrib plot    -1.177617618455884
+    Attrib love    -7.9051132691394725
+    Attrib great    -9.8079062764069
+    Attrib bad    4.244987254555048
+    Attrib well    5.450589973185256
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    22.395221503480908
+    Attrib crap    3.661856601169547
+    Attrib attempt    1.6707780727000223
+    Attrib looked    -2.5567026402840023
+    Attrib hilarious    -9.312974816665598
+    Attrib ok    7.039879537360397
+    Attrib strong    -9.12555830920982
+    Attrib highly    -12.592539350053517
+    Attrib decent    18.904917263747876
+    Attrib brilliant    -12.675251716923816
+    Attrib favorite    -14.900791562051545
+    Attrib enjoyed    -3.7004634113004626
+    Attrib amazing    -25.3459657144311
+    Attrib horrible    11.35690259701708
+    Attrib unfortunately    -8.04452580462497
+    Attrib waste    19.293963692034936
+    Attrib oh    11.68318963112478
+    Attrib supposed    3.247419658345677
+    Attrib worse    10.880918880843115
+    Attrib loved    -6.9367993447768095
+    Attrib couldnt    7.265559400357204
+    Attrib definitely    -2.6623979337518247
+    Attrib perfect    -22.677902112761053
+    Attrib wonderful    -23.81286291291032
+    Attrib terrible    20.16263452096588
+    Attrib awful    32.09400335170975
+    Attrib stupid    17.576538074051367
+    Attrib classic    -7.1494396399342595
+    Attrib boring    22.56214773999079
+    Attrib 1    10.976046856520842
+    Attrib poor    4.0400786466716605
+    Attrib excellent    -10.506191146307598
+    Attrib beautiful    -15.531980111966321
+    Attrib instead    15.396036594446647
+    Attrib half    1.9049530407793145
+    Attrib different    -15.539437655465226
+    Attrib worst    33.07462752787945
+    Attrib minutes    29.9011898379147
+    Attrib script    6.587505327411493
+    Attrib least    -18.020301384233996
+    Attrib always    -15.46373926034448
+    Attrib world    -11.292071448628638
+    Attrib nothing    17.691412305214197
+    Attrib years    -6.502122261081928
+    Attrib why    2.9966343875549994
+    Attrib best    -28.744475331090896
+    Attrib plot    2.949822775664104
+    Attrib love    -17.03541687938326
+    Attrib great    -13.698861562530746
+    Attrib bad    26.743571790456677
+    Attrib well    -8.7862913933085
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    3.815751247195959
+    Attrib crap    5.360805386608403
+    Attrib attempt    2.4836450259325824
+    Attrib looked    -2.728354925144175
+    Attrib hilarious    -3.9742275068277797
+    Attrib ok    1.789067262481727
+    Attrib strong    -6.8365805779516835
+    Attrib highly    0.1423015850355638
+    Attrib decent    -1.735257205432824
+    Attrib brilliant    -1.6752764844752952
+    Attrib favorite    -5.634478463322318
+    Attrib enjoyed    -1.582814475669311
+    Attrib amazing    -3.3748635085957424
+    Attrib horrible    -1.952206821803638
+    Attrib unfortunately    0.38048086403768294
+    Attrib waste    4.666870329240871
+    Attrib oh    0.47910137736651415
+    Attrib supposed    3.279073030240763
+    Attrib worse    4.86910193336199
+    Attrib loved    -3.265339682092405
+    Attrib couldnt    -0.4421366644111021
+    Attrib definitely    2.1101008562227577
+    Attrib perfect    -9.960476417548154
+    Attrib wonderful    0.11719482350960529
+    Attrib terrible    3.8604067873327397
+    Attrib awful    6.531269711346429
+    Attrib stupid    0.8721282578077247
+    Attrib classic    3.017361637383999
+    Attrib boring    -0.6941394055392959
+    Attrib 1    1.5555317473975454
+    Attrib poor    2.5557953132383275
+    Attrib excellent    8.912602132546949
+    Attrib beautiful    -2.147313765163956
+    Attrib instead    6.9190404839232755
+    Attrib half    2.3092777927293984
+    Attrib different    3.4802328256185624
+    Attrib worst    3.6998112912892154
+    Attrib minutes    -4.777543116286582
+    Attrib script    -2.106090955554941
+    Attrib least    2.5256400804457044
+    Attrib always    2.0979287857617286
+    Attrib world    -4.858262498390139
+    Attrib nothing    4.430686411492343
+    Attrib years    -10.02421691093748
+    Attrib why    22.358246429842808
+    Attrib best    -7.186168210086746
+    Attrib plot    3.559644773819726
+    Attrib love    -5.103026119532645
+    Attrib great    -0.8818878226844711
+    Attrib bad    -4.505133616614349
+    Attrib well    0.9831392828790715
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    3.651829702265468
+    Attrib crap    2.2437570618437044
+    Attrib attempt    2.5751130827292066
+    Attrib looked    0.8757744287397092
+    Attrib hilarious    -0.8796512805611241
+    Attrib ok    1.466627833761307
+    Attrib strong    -4.269729061500404
+    Attrib highly    5.449890845618609
+    Attrib decent    2.8295705631011563
+    Attrib brilliant    -3.233129093366543
+    Attrib favorite    -3.577444519064922
+    Attrib enjoyed    2.190755019499409
+    Attrib amazing    -5.087033613342199
+    Attrib horrible    8.13961815892611
+    Attrib unfortunately    5.285882384706551
+    Attrib waste    5.554280161810018
+    Attrib oh    8.746347119657061
+    Attrib supposed    4.421577194332847
+    Attrib worse    -4.542476031382903
+    Attrib loved    5.767499231606888
+    Attrib couldnt    7.023204014101389
+    Attrib definitely    -5.095420975669204
+    Attrib perfect    -3.4824244965846383
+    Attrib wonderful    -1.2619628673240288
+    Attrib terrible    4.575794923886548
+    Attrib awful    1.433460240593237
+    Attrib stupid    3.5930242544470765
+    Attrib classic    -3.8885601411349593
+    Attrib boring    -2.1438155968102266
+    Attrib 1    2.670393965931119
+    Attrib poor    -1.7151316713658677
+    Attrib excellent    -3.7231469309497016
+    Attrib beautiful    -2.603962206729242
+    Attrib instead    0.2551389415563149
+    Attrib half    -1.1743462655488572
+    Attrib different    8.714025964183524
+    Attrib worst    2.1421741330561517
+    Attrib minutes    -0.33724345608077444
+    Attrib script    -0.6366335492877495
+    Attrib least    -0.7679047602037834
+    Attrib always    -6.935715826016474
+    Attrib world    -6.296673641987134
+    Attrib nothing    3.7716608109689114
+    Attrib years    -9.263326436779236
+    Attrib why    1.8307685634068298
+    Attrib best    -2.946758897207522
+    Attrib plot    4.961870603935606
+    Attrib love    6.181484116238937
+    Attrib great    -9.996787876310071
+    Attrib bad    -0.9900612747130237
+    Attrib well    -1.5163644928388396
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    15.232590731202388
+    Attrib crap    14.083341946102346
+    Attrib attempt    6.126280341048678
+    Attrib looked    0.3207247386766464
+    Attrib hilarious    3.4139246172490836
+    Attrib ok    10.946900123321877
+    Attrib strong    -2.569420450814552
+    Attrib highly    -8.345724334513644
+    Attrib decent    3.295666648543924
+    Attrib brilliant    -17.88894331778724
+    Attrib favorite    -6.367439652177716
+    Attrib enjoyed    -11.55703924702608
+    Attrib amazing    -16.528384067262614
+    Attrib horrible    10.80247414279734
+    Attrib unfortunately    -10.398499242780503
+    Attrib waste    12.00411385535908
+    Attrib oh    9.648402109861886
+    Attrib supposed    1.8143796737183806
+    Attrib worse    0.12532524975151066
+    Attrib loved    1.8680243363876006
+    Attrib couldnt    0.49616068200658164
+    Attrib definitely    0.2641113602793112
+    Attrib perfect    -13.500778737428565
+    Attrib wonderful    -18.86891116277828
+    Attrib terrible    14.36239890633723
+    Attrib awful    18.622103224270543
+    Attrib stupid    12.354269759045827
+    Attrib classic    0.00954329816069561
+    Attrib boring    12.968923604888309
+    Attrib 1    7.214863701830083
+    Attrib poor    16.2197821100836
+    Attrib excellent    -13.22769005243838
+    Attrib beautiful    -10.381297668821897
+    Attrib instead    7.832173559268915
+    Attrib half    2.5440898184022394
+    Attrib different    -6.499390070780711
+    Attrib worst    19.11866467955029
+    Attrib minutes    3.173071599013313
+    Attrib script    2.7007972955382002
+    Attrib least    7.720638895026847
+    Attrib always    -8.776369721754882
+    Attrib world    -15.370015272714214
+    Attrib nothing    9.969001623904441
+    Attrib years    -10.928216020364106
+    Attrib why    7.193162342011045
+    Attrib best    -15.954612242789967
+    Attrib plot    19.967871798240232
+    Attrib love    -9.562189681471933
+    Attrib great    -18.063637862839688
+    Attrib bad    28.63481625622888
+    Attrib well    -10.32842267913446
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 959.72 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       39421               78.842  %
+Incorrectly Classified Instances     10579               21.158  %
+Kappa statistic                          0.5768
+Mean absolute error                      0.2735
+Root mean squared error                  0.3852
+Relative absolute error                 54.6973 %
+Root relative squared error             77.0357 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.74      0.163      0.82      0.74      0.778      0.868    0
+                 0.837     0.26       0.763     0.837     0.798      0.868    1
+Weighted Avg.    0.788     0.212      0.791     0.788     0.788      0.868
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18489  6511 |     a = 0
+  4068 20932 |     b = 1
+
+

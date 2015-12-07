@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     MovieDataSet-weka.filters.unsupervised.attribute.Remove-V-R1-2,14,19,21,28,60-61,87-88,93,109,111,120,154,160,164,172-173,190,195,201,208,215,228,236,244,252,258,268,283,292,300,302,324,356,374-375,378,391,418,440,451,467,487,490-491,521,525,531,600
+Instances:    50000
+Attributes:   51
+              crap
+              attempt
+              looked
+              hilarious
+              ok
+              strong
+              highly
+              decent
+              brilliant
+              favorite
+              enjoyed
+              amazing
+              horrible
+              unfortunately
+              waste
+              oh
+              supposed
+              worse
+              loved
+              couldnt
+              definitely
+              perfect
+              wonderful
+              terrible
+              awful
+              stupid
+              classic
+              boring
+              1
+              poor
+              excellent
+              beautiful
+              instead
+              half
+              different
+              worst
+              minutes
+              script
+              least
+              always
+              world
+              nothing
+              years
+              why
+              best
+              plot
+              love
+              great
+              bad
+              well
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       36724               73.448  %
+Incorrectly Classified Instances     13276               26.552  %
+Kappa statistic                          0.469 
+Mean absolute error                      0.2882
+Root mean squared error                  0.4824
+Relative absolute error                 57.636  %
+Root relative squared error             96.4881 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.713     0.244      0.745     0.713     0.729      0.762    0
+                 0.756     0.287      0.725     0.756     0.74       0.762    1
+Weighted Avg.    0.734     0.266      0.735     0.734     0.734      0.762
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 17813  7187 |     a = 0
+  6089 18911 |     b = 1
+
+
