@@ -102,8 +102,8 @@ public class ArffGenerator {
 										if(attributes[a].equals(words[i])){
 											
 											/*Determines if the attribute is binary or not*/
-											atValues[a] = 1;
-											//atValues[a] = atValues[a]+1;
+											//atValues[a] = 1;
+											atValues[a] = atValues[a]+1;
 										}
 									}
 								}
