@@ -100,9 +100,10 @@ public class ArffGenerator {
 
 									for(int a=0 ; a < atSize; a++){
 										if(attributes[a].equals(words[i])){
-											//it could be another value instead of 1
-											//atValues[a] = 1;
-											atValues[a] = atValues[a]+1;
+											
+											/*Determines if the attribute is binary or not*/
+											atValues[a] = 1;
+											//atValues[a] = atValues[a]+1;
 										}
 									}
 								}
