@@ -8,29 +8,12 @@ public class SVMTester {
 	String userDir = System.getProperty("user.dir");
 	String arff = new String("/MovieDataSet_REDUCED.arff");
 
-	int generalCounter = 0;
+	/*Saves all the reviews. Each review is a line. Each line has 51 words*/
 	String allReviews[][] = new String[50000][];
 
+	/*Counts the right and wrong answers*/
 	int rightAnswer = 0;
 	int wrongAnswer = 0;
-
-	//ler arquivo arff
-
-	//criar modelo SVM
-
-	//para cada review
-
-	//passar parametros para o svm
-
-	//comparar valor obtido com o esperado
-
-	//incrementar a variavel de acertos ou a variavel de erros
-
-
-	//imprimir a quantidade de erros e acertos
-
-
-	////////////////////Início
 
 	public SVMTester() {
 
@@ -56,18 +39,16 @@ public class SVMTester {
 					aux = aux.replaceAll("@attribute ", "");
 					aux = aux.replaceAll(" {0,1}", "");
 
-
 					System.out.println(aux);
 					attributes[i++] = aux;
 				}
-
 
 				/*Read each line and extract the word*/
 				String aux = br.readLine();
 				aux = aux.replaceAll("@attribute ", "");
 				aux = aux.replaceAll(" numeric", "");
 
-				System.out.println(aux);
+				//System.out.println(aux);
 				attributes[i++] = aux;
 			}
 
@@ -81,24 +62,14 @@ public class SVMTester {
 			/*for each review*/
 			while(revs<50000){
 
+				System.out.println("Reading...");
+				
 				/*Reads the line*/
 				String aux2 = br.readLine();
 
 				/*Split the numbers by , or space*/
 				String[] reviews = aux2.split(",| ");
 				allReviews[revs] = reviews;
-
-				/*Prints all the numbers of a review in a line.*/
-				//				for(int j=0;j<51;j++){
-				//					System.out.print(reviews[j] + " ");
-				//					if(j==50){
-				//						System.out.println();
-				//					}
-				//				}
-
-
-				//Here you can pass some of the information to the SVM algorith for testing purposes. Let's say 66%
-				//SVM_function(String[] reviews);
 
 				/*Go to next review*/
 				revs++;
@@ -111,20 +82,20 @@ public class SVMTester {
 		}
 
 
+		/*Here you can pass some of the information to the SVM algorith for testing purposes. Let's say 66%. 
+		 * This method generates the model. It makes the computer learn
+		 */
+		SVM_generateModel(allReviews);
+
+		
 		/*Now that the model was built, I can test it with all instances*/
 
 
-		/*Prints Everything*/
-		for(int i=0;i<50000;i++){
-			for(int k=0;k<51;k++){
-				System.out.print(allReviews[i][k] + " ");
-				if(k==50){
-					System.out.println();
-				}
-			}
-		}
-
+		/*For each review, compare the expected value with the received value and compute the percentages*/
 		for(int indexOfReview=0 ; indexOfReview<50000 ; indexOfReview++){
+			
+			System.out.println("Comparing...");
+			
 			int received = SVM_applyOnModel(allReviews[indexOfReview]);
 			int expected = Integer.parseInt(allReviews[indexOfReview][50]);
 			if(received==expected){
@@ -135,13 +106,32 @@ public class SVMTester {
 			}
 		}
 
+		/*Prints the percentages*/
 		System.out.println("Right answers: " + (rightAnswer/50000.)*100 + "%");
 		System.out.println("Wrong answers: " + (wrongAnswer/50000.)*100 + "%");
 	}
+
+
+	/*Method to print Everything*/
+	void printInformation(String allreviews[][]){
+		for(int i=0;i<50000;i++){
+			for(int k=0;k<51;k++){
+				System.out.print(allreviews[i][k] + " ");
+				if(k==50){
+					System.out.println();
+				}
+			}
+		}
+	}
 	
+	void SVM_generateModel(String allreviews[][]){
+
+	}
+
 	int SVM_applyOnModel(String review[]){
-		
-		
+
 		return 0;
 	}
+
+	
 }
