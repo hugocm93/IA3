@@ -9,7 +9,7 @@ public class SVMTester {
 	String arff = new String("/MovieDataSet_REDUCED.arff");
 
 	/*Saves all the reviews. Each review is a line. Each line has 51 words*/
-	String allReviews[][] = new String[50000][];
+	int allReviews[][] = new int[50000][];
 
 	/*Counts the right and wrong answers*/
 	int rightAnswer = 0;
@@ -69,7 +69,12 @@ public class SVMTester {
 
 				/*Split the numbers by , or space*/
 				String[] reviews = aux2.split(",| ");
-				allReviews[revs] = reviews;
+				
+				int temp[] = new int[reviews.length];
+				for(int q=0 ; q<reviews.length; q++){
+					temp[q] = Integer.parseInt(reviews[q]);
+				}
+				allReviews[revs] = temp;
 
 				/*Go to next review*/
 				revs++;
@@ -97,7 +102,7 @@ public class SVMTester {
 			System.out.println("Comparing...");
 			
 			int received = SVM_applyOnModel(allReviews[indexOfReview]);
-			int expected = Integer.parseInt(allReviews[indexOfReview][50]);
+			int expected = allReviews[indexOfReview][50];
 			if(received==expected){
 				rightAnswer++;
 			}
@@ -105,6 +110,8 @@ public class SVMTester {
 				wrongAnswer++;
 			}
 		}
+		
+		//printInformation(allReviews);
 
 		/*Prints the percentages*/
 		System.out.println("Right answers: " + (rightAnswer/50000.)*100 + "%");
@@ -113,7 +120,7 @@ public class SVMTester {
 
 
 	/*Method to print Everything*/
-	void printInformation(String allreviews[][]){
+	void printInformation(int allreviews[][]){
 		for(int i=0;i<50000;i++){
 			for(int k=0;k<51;k++){
 				System.out.print(allreviews[i][k] + " ");
@@ -124,11 +131,11 @@ public class SVMTester {
 		}
 	}
 	
-	void SVM_generateModel(String allreviews[][]){
+	void SVM_generateModel(int allreviews[][]){
 
 	}
 
-	int SVM_applyOnModel(String review[]){
+	int SVM_applyOnModel(int review[]){
 
 		return 0;
 	}
