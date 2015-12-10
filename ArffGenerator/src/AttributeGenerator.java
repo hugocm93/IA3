@@ -91,7 +91,12 @@ public class AttributeGenerator {
 
 		
 		/*Sorts the map. Increasing order*/
-		Comparator<Entry<String, Integer>> valueComparator = (e1, e2) -> e1.getValue().compareTo(e2.getValue());
+		Comparator<Entry<String, Integer>> valueComparator = new Comparator<Entry<String, Integer>>() {
+			@Override
+			public int compare(Entry<String, Integer> e1, Entry<String, Integer> e2) {
+				return e1.getValue().compareTo(e2.getValue());
+			}
+		};
 		HashMap<String, Integer> sortedMap = wordMap
 				.entrySet()
 				.stream()
